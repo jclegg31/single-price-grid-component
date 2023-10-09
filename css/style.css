@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-yellow: hsl(71, 73%, 54%);
+  --clr-lightgray: hsl(204, 43%, 93%);
+  --clr-grayblue: hsl(218, 22%, 67%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  height: 100vh;
+  max-width: 375px;
+  display: grid;
+  align-content: center;
+  margin: 0 auto;
+  background-color: var(--clr-lightgray);
+}
+
+.community-section {
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.community-content,
+.subscription-content,
+.why-us-content {
+  padding: 25px;
+}
+
+.community-content h1 {
+  font-size: 1.5rem;
+  color: var(--clr-cyan);
+  margin-bottom: 25px;
+}
+
+.community-content h2 {
+  font-size: 1.1rem;
+  color: var(--clr-yellow);
+  margin-bottom: 20px;
+}
+
+.community-content p {
+  font-size: 1rem;
+  color: var(--clr-grayblue);
+  line-height: 1.7rem;
+}
+
+.subscription-section {
+  background-color: var(--clr-cyan);
+  color: #fff;
+}
+
+.subscription-content h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.sub-cost {
+  display: flex;
+  align-items: center;
+}
+
+.subscription-content .sub-amount {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.sub-cost p + p {
+  font-size: 1rem;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.full-access {
+  margin: 8px 0 40px 0;
+}
+
+.subscription-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--clr-yellow);
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  box-shadow: 5px 5px 11px 1px rgba(0, 0, 0, 0.14);
+}
+
+.why-us-section {
+  background-color: var(--clr-cyan);
+  opacity: 0.7;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.why-us-content {
+  color: #fff;
+}
+
+.why-us-content h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.why-us-content ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  list-style: none;
+  line-height: 1.5rem;
+}
