@@ -62,7 +62,7 @@ body {
 .subscription-content h2 {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .sub-cost {
@@ -131,6 +131,10 @@ body {
     margin: 0 auto;
   }
 
+  .community-section {
+    padding-bottom: 15px;
+  }
+
   .bottom-section {
     display: grid;
     align-items: center;
@@ -142,7 +146,17 @@ body {
     border-bottom-left-radius: 10px;
   }
 
+  .subscription-section h2 {
+    padding-top: 20px;
+  }
+
   .why-us-section {
+    padding-top: 20px;
     border-bottom-left-radius: 0;
+  }
+
+  .why-us-content ul li {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
   }
 }
